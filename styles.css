@@ -1,6 +1,6 @@
 body {
   background-color: #F8F8FF;
-  color: #354146;
+  color: #192429;
   font-family: 'Josefin Sans', sans-serif;
 }   
    
@@ -33,6 +33,7 @@ body {
     
     input:focus { outline: none; }
     
+
   
     /* Button */
     
@@ -43,7 +44,7 @@ body {
       margin: .3em 0 1em 0;
       width: 100%;
       vertical-align: middle;
-      color: #004345;
+      color: #192429;
       font-size: 16px;
       line-height: 20px;
       -webkit-font-smoothing: antialiased;
@@ -57,14 +58,11 @@ body {
     }
     .button:focus { outline: 0; }
     
-    
-    /* Button modifiers */
-    
-    .buttonBlue {
-      background: 
-      text-shadow: 1px 1px 0 rgba(39, 110, 204, .5);
-    }
-   
+  .button:hover {
+    background-color: #BBB4AC;
+    color: #F8F8FF;
+  }
+
     hgroup { 
       text-align:center;
       margin-top: 4em;
