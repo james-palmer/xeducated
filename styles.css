@@ -22,12 +22,13 @@ body {
       font-size: 18px;
       padding: 10px 10px 10px 5px;
       -webkit-appearance: none;
-      display: block;
-            color: #636363;
-      width: 100%;
+      color: #636363;
+      width: 365px;
       border: none;
       border-radius: 0;
-      border-bottom: 1px solid #757575;
+      border-bottom: 1px solid #DEDBD5;
+      background-color: #F8F8FF;
+
     }
     
     input:focus { outline: none; }
