@@ -3,6 +3,7 @@ body {
   color: #192429;
   font-family: 'Josefin Sans', sans-serif !important;
   font-weight: 900;
+  font-size: 2rem;
 }   
    
    
@@ -46,28 +47,14 @@ body {
     }
     
     .logo img {
-      width: 25rem;
+      height: 40vh;
+    }
 
+    .row {
+      margin: 2rem 0rem;
     }
 
 
-    @media (max-width: 576px) { 
-      
-      form {
-        width: 90%;
-      }
-
-      .logo img {
-        width: 18rem;
-  
-      }
-
-      .social {
-        align-items: center;
-        text-align: center;
-      }
-
-     }
     /* Button */
     
     .button {
@@ -107,8 +94,7 @@ body {
 
     .social {
       color:#192429;
-      font-weight: bold;
-    
+      font-weight: bold;   
     }
     
     /* Add a hover effect if you want */
@@ -123,3 +109,36 @@ body {
       font-weight: bold;
       color:#192429;
     }
+
+
+    @media (max-width: 576px) { 
+      
+      form {
+        width: 90%;
+      }
+
+      .logo img {
+        width: 18rem;
+  
+      }
+
+      .social {
+        align-items: center;
+        text-align: center;
+      }
+
+     }
+
+     @media (min-height: 800px){
+     
+      .form {
+        margin-top: 10rem;
+      }
+      .social {
+      font-size: 1.3rem;
+      }
+      .button {
+        font-size: 16px;
+      }
+
+     }
