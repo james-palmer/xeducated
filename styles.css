@@ -118,3 +118,7 @@ body {
     /* Set a specific color for each brand */
     
     
+    .link {
+      font-weight: bold;
+      color:#192429;
+    }
