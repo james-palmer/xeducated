@@ -55,7 +55,30 @@ body {
       margin: 2rem 0rem;
     }
 
+    #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error{
+      background-color: transparent;
+   
+    }
+    #mc_embed_signup {
+      background-color: transparent;
+    }
 
+    #mc-field-group {
+      background-color: transparent;
+    }
+
+    #enterEmail {
+      background-color: transparent;
+    }
+
+    #mce-responses {
+      font-size: 14px;
+      margin: 0px
+    }
+
+    #mc_embed_signup .button {
+      color:black
+    }
     /* Button */
     
     .button {
@@ -77,6 +100,7 @@ body {
       border-radius: 5px;
       transition: all 0.15s ease;
       font-weight: bold;
+;
     }
   .button:focus { outline: 0; }
     
@@ -131,8 +155,9 @@ body {
         margin-top: 10rem;
       }
       .social {
-      font-size: 1.3rem;
+      font-size: 1rem;
       }
+
       .button {
         font-size: 16px;
       }
